@@ -1,0 +1,138 @@
+html {
+    background-color: #fadde3;
+}
+
+/*Navigation Styles*/
+nav ul a {
+    text-decoration: none;
+    padding: 0px 20px;
+    float: right;
+    color: #ff4d6d;
+    font-family: Mali;
+}
+nav ul a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fa002d;
+}
+
+#s1 {
+    font-family: Mali;
+    color: #c9184a;
+    font-weight: none;
+}
+
+/*Oval Background*/
+#s1 .oval-background {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.i-1 {
+    font-family: Mali;
+    color: #c9184a;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    max-width: 500px;
+    margin-left: 400px;
+    float: left;
+}
+
+.i-2 {
+    font-family: Mali;
+    color: #c9184a;
+    padding-top: ;
+    padding-right: 30px;
+    max-width: 500px;
+    margin-left: 400px;
+    float: left;
+}
+
+.pp {
+    float: left;
+    max-width: 400%;
+    height: 400px;
+    width: 400px;
+    padding: 0;
+    margin: none;
+}
+
+.i-3 p{
+    font-family: Mali;
+    color: #c9184a;
+    padding-top: 10px;
+    padding-right: 30px;
+    max-width: 500px;
+    margin-left: 400px;
+    float: right;
+}
+
+/*Oval Button*/
+.oval-button {
+    background-color: transparent;
+    color: #ff8fa3; /* Matching the text color */
+    padding: 0.5px 20px;
+    border: 2px solid #ff8fa3; /* Border color and thickness */
+    border-radius: 50px; /* Creates the oval shape */
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+}
+
+.pro-1 h4 a {
+    text-decoration: none;
+    color: #ff8fa3;
+}
+
+/*Footer Styles*/
+.foot {
+    align-items: center;
+    padding: 0;
+    font-size: large;
+    float: left;
+    background-color: #3d1126;
+}
+
+.foot h3 {
+    float: left;
+    text-align: center;
+    position:unset;
+    font-family: Mali;
+    float: left;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.foot p  {
+    float: left;
+    margin: 5px;
+    font-family: Mali;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.foot .email  a{
+    text-decoration: none;
+    color: white;
+}
+
+img  {
+    max-width: 4.5%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+    float: right;
+}
