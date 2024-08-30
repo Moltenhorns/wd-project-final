@@ -45,7 +45,7 @@ nav ul a:hover {
 .i-2 {
     font-family: Mali;
     color: #c9184a;
-    padding-top: ;
+    padding-top: 0;
     padding-right: 30px;
     max-width: 500px;
     margin-left: 400px;
@@ -82,7 +82,6 @@ nav ul a:hover {
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    float: right;
 }
 
 .pro-1 h4 a {
