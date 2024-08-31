@@ -9,17 +9,20 @@ nav ul a {
     float: right;
     color: #ff4d6d;
     font-family: Mali;
+    border: 1px solid red;
 }
 nav ul a:hover {
     text-decoration: underline;
     font-weight: bold;
     color: #fa002d;
+    border: 1px solid red;
 }
 
 #s1 {
     font-family: Mali;
     color: #c9184a;
     font-weight: none;
+    border: 1px solid red;
 }
 
 /*Oval Background*/
@@ -29,46 +32,28 @@ nav ul a:hover {
     border-radius: 50px;
     display: inline-block;
     font-weight: bold;
+    border: 1px solid red;
 }
 
-.i-1 {
-    font-family: Mali;
-    color: #c9184a;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    padding-right: 30px;
-    max-width: 500px;
-    margin-left: 400px;
-    float: left;
-}
-
-.i-2 {
-    font-family: Mali;
-    color: #c9184a;
-    padding-top: 0;
-    padding-right: 30px;
-    max-width: 500px;
-    margin-left: 400px;
-    float: left;
-}
-
-.pp {
-    float: left;
+.pic img {
+    display: inline-block;
+    border: 1px solid red;
     max-width: 400%;
-    height: 400px;
-    width: 400px;
-    padding: 0;
+    height: 500px;
+    width: 500px;
+    padding: none;
     margin: none;
+    float: left;
 }
 
-.i-3 p{
+#text {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    padding-top: 100px;
+    border: 1px solid red;
     font-family: Mali;
     color: #c9184a;
-    padding-top: 10px;
-    padding-right: 30px;
-    max-width: 500px;
-    margin-left: 400px;
-    float: right;
 }
 
 /*Oval Button*/
@@ -82,11 +67,13 @@ nav ul a:hover {
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    border: 1px solid red;
 }
 
 .pro-1 h4 a {
     text-decoration: none;
     color: #ff8fa3;
+    border: 1px solid red;
 }
 
 /*Footer Styles*/
@@ -96,6 +83,7 @@ nav ul a:hover {
     font-size: large;
     float: left;
     background-color: #3d1126;
+    border: 1px solid red;
 }
 
 .foot h3 {
@@ -109,6 +97,7 @@ nav ul a:hover {
     font-style: italic;
     padding-bottom: 5px;
     padding-left: 5px;
+    border: 1px solid red;
 }
 
 .foot p  {
@@ -121,11 +110,13 @@ nav ul a:hover {
     padding-bottom: 0px;
     padding-top: 20px;
     padding-left: 10px;
+    border: 1px solid red;
 }
 
 .foot .email  a{
     text-decoration: none;
     color: white;
+    border: 1px solid red;
 }
 
 img  {
@@ -134,4 +125,5 @@ img  {
     padding: 20px 0px 0px 0px;
     margin: auto;
     float: right;
+    border: 1px solid red;
 }
