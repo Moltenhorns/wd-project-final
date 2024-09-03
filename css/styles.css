@@ -1,5 +1,6 @@
-html {
+html, body {
     background-color: #FFE5EC;
+    font-family: 'Mali', sans-serif;
 }
 
 /*Navigation Styles*/
@@ -108,7 +109,7 @@ nav ul a:hover {
     font-style: italic;
     color: white;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
     border: 1px solid red;
 }
@@ -122,7 +123,7 @@ nav ul a:hover {
 img  {
     max-width: 4.5%;
     height: auto;
-    padding: 20px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     margin: auto;
     float: right;
     border: 1px solid red;
