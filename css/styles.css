@@ -62,13 +62,61 @@ nav ul a:hover {
     background-color: transparent;
     color: #ff8fa3; /* Matching the text color */
     padding: 0.5px 20px;
-    border: 2px solid #ff8fa3; /* Border color and thickness */
+    border: 4px solid #ff8fa3; /* Border color and thickness */
     border-radius: 50px; /* Creates the oval shape */
     display: inline-block;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+}
+
+.group a{
+    text-decoration: none;
+    color: #ff8fa3;
+}
+
+.oval-button:hover {
+    transform: scale(0.98);
+}
+.oval-button-1, .oval-button-2 {
+    background-color: transparent;
+    color: #3d1126; /* Matching the text color */
+    padding: 0.5px 20px;
+    border: 4px solid #890f31; /* Border color and thickness */
+    border-radius: 50px; /* Creates the oval shape */
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container a{
+    text-decoration: none;
+    color: #3d1126;
+    font-family: 'Mali';
+
+}
+
+.oval-button-1:hover, .oval-button-2:hover {
+    transform: scale(0.98);
+    
+}
+.container {
     border: 1px solid red;
+}
+
+#icon a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    color: #890f31;
+}
+
+#icon a:hover {
+    color: #c9184a;
+    font-size: 20px;
+    behavior: smooth;
 }
 
 .pro-1 h4 a {
@@ -118,6 +166,15 @@ nav ul a:hover {
     text-decoration: none;
     color: white;
     border: 1px solid red;
+}
+
+.foot img:hover {
+    height: 38px;
+    max-width: 40px;
+}
+
+.foot img {
+    padding: 5px;
 }
 
 img  {
